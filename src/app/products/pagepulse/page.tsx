@@ -84,9 +84,8 @@ export default function PagePulsePage() {
           <p className="text-xl text-slate-400 max-w-2xl mx-auto mb-8">
             AI-powered content auditing across 9 dimensions. Get your Content Quality Score and AI Citability Score to make every page rank - and get cited.
           </p>
-          {/* TODO: Update this link to the actual PagePulse production URL */}
           <a
-            href="http://localhost:3000"
+            href="https://pagepulse-pied.vercel.app"
             className="inline-flex items-center gap-2 px-8 py-3.5 bg-teal-600 hover:bg-teal-500 text-white font-semibold rounded-lg transition-colors text-lg"
           >
             Launch PagePulse

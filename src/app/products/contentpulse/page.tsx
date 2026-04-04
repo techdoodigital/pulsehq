@@ -116,9 +116,8 @@ export default function ContentPulsePage() {
           <p className="text-xl text-slate-400 max-w-2xl mx-auto mb-8">
             Connect to Google Search Console and detect content decay before it impacts your traffic. Get AI-powered recovery recommendations.
           </p>
-          {/* TODO: Update this link to the actual ContentPulse production URL */}
           <a
-            href="http://localhost:3001"
+            href="https://contentpulse-nu.vercel.app"
             className="inline-flex items-center gap-2 px-8 py-3.5 bg-orange-600 hover:bg-orange-500 text-white font-semibold rounded-lg transition-colors text-lg"
           >
             Launch ContentPulse

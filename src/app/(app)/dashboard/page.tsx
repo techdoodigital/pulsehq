@@ -18,8 +18,7 @@ const tools = [
     description: "Audit your content across 9 dimensions for quality and AI citability.",
     color: "teal",
     icon: Search,
-    // TODO: Update to production URL
-    href: "http://localhost:3000",
+    href: "https://pagepulse-pied.vercel.app",
     external: true,
   },
   {
@@ -28,8 +27,7 @@ const tools = [
     description: "Monitor content performance and detect decay with GSC integration.",
     color: "orange",
     icon: BarChart3,
-    // TODO: Update to production URL
-    href: "http://localhost:3001",
+    href: "https://contentpulse-nu.vercel.app",
     external: true,
   },
 ];
@@ -39,7 +37,7 @@ const gettingStarted = [
     icon: Rocket,
     title: "Run your first audit",
     description: "Launch PagePulse and audit a URL to see your Content Quality Score.",
-    href: "http://localhost:3000",
+    href: "https://pagepulse-pied.vercel.app",
     external: true,
   },
   {
@@ -53,7 +51,7 @@ const gettingStarted = [
     icon: Settings,
     title: "Connect Google Search Console",
     description: "Set up ContentPulse to monitor your content health automatically.",
-    href: "http://localhost:3001",
+    href: "https://contentpulse-nu.vercel.app",
     external: true,
   },
 ];
