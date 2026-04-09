@@ -121,14 +121,14 @@ export default function WhatIsAEOPage() {
 
         <section>
           <h2 className="text-2xl font-semibold text-white mb-4">
-            How PulseHQ Tools Help with AEO
+            How CitabilityOS Tools Help with AEO
           </h2>
           <p className="text-slate-400 mb-4">
-            PulseHQ provides purpose-built tools to help you optimize for answer engines:
+            CitabilityOS provides purpose-built tools to help you optimize for answer engines:
           </p>
           <div className="space-y-4">
             <div className="bg-slate-900 border border-slate-800 rounded-lg p-5">
-              <h3 className="text-lg font-semibold text-white mb-2">PagePulse</h3>
+              <h3 className="text-lg font-semibold text-white mb-2">CiteAudit</h3>
               <p className="text-slate-400 text-sm">
                 Audits your content across 9 dimensions including AI citability, answer-ready
                 formatting, source attribution, and more. Get a specific AI Citability Score
@@ -136,7 +136,7 @@ export default function WhatIsAEOPage() {
               </p>
             </div>
             <div className="bg-slate-900 border border-slate-800 rounded-lg p-5">
-              <h3 className="text-lg font-semibold text-white mb-2">ContentPulse</h3>
+              <h3 className="text-lg font-semibold text-white mb-2">CiteWatch</h3>
               <p className="text-slate-400 text-sm">
                 Monitors your content performance over time and detects when pages start losing
                 visibility. Content that decays in traditional search often loses AI citations
@@ -148,10 +148,10 @@ export default function WhatIsAEOPage() {
 
         <div className="pt-4">
           <Link
-            href="/products/pagepulse"
+            href="/products/citeaudit"
             className="inline-flex items-center px-6 py-3 bg-red-600 hover:bg-red-500 text-white font-semibold rounded-lg transition-colors"
           >
-            Try PagePulse - Check Your AI Citability
+            Try CiteAudit - Check Your AI Citability
           </Link>
         </div>
       </div>

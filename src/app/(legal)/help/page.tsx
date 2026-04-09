@@ -4,20 +4,20 @@ import { BookOpen, Search, BarChart3, User, Mail } from "lucide-react";
 const sections = [
   {
     icon: BookOpen,
-    title: "Getting Started with PulseHQ",
+    title: "Getting Started with CitabilityOS",
     items: [
-      "Create your free account at pulsehq.io/signup",
+      "Create your free account at citabilityos.io/signup",
       "Verify your email address to activate your account",
       "Log in to your dashboard to see all available tools",
-      "Choose a tool to get started: PagePulse for auditing or ContentPulse for monitoring",
+      "Choose a tool to get started: CiteAudit for auditing or CiteWatch for monitoring",
       "Explore the Getting Started cards on your dashboard for guided setup",
     ],
   },
   {
     icon: Search,
-    title: "PagePulse Setup Guide",
+    title: "CiteAudit Setup Guide",
     items: [
-      "Launch PagePulse from your PulseHQ dashboard",
+      "Launch CiteAudit from your CitabilityOS dashboard",
       "Choose your input method: enter a URL, paste text, or upload a .docx file",
       "Click 'Audit' to start the analysis (takes 30-60 seconds)",
       "Review your Content Quality Score (0-100) and AI Citability Score (0-10)",
@@ -27,12 +27,12 @@ const sections = [
   },
   {
     icon: BarChart3,
-    title: "ContentPulse + Google Search Console Setup",
+    title: "CiteWatch + Google Search Console Setup",
     items: [
-      "Launch ContentPulse from your PulseHQ dashboard",
+      "Launch CiteWatch from your CitabilityOS dashboard",
       "Click 'Connect Google Search Console' and authorize access",
       "Select the property (website) you want to monitor",
-      "ContentPulse will import your historical data (this may take a few minutes)",
+      "CiteWatch will import your historical data (this may take a few minutes)",
       "Once imported, you will see your pages sorted by decay risk score",
       "Set up email alerts to get notified when content decay is detected",
       "Use the AI recovery feature to get specific recommendations for declining pages",
@@ -56,7 +56,7 @@ export default function HelpPage() {
     <div>
       <h1 className="text-3xl sm:text-4xl font-bold text-white mb-4">Help Center</h1>
       <p className="text-lg text-slate-400 mb-10">
-        Everything you need to know about using PulseHQ and its tools.
+        Everything you need to know about using CitabilityOS and its tools.
       </p>
 
       <div className="space-y-8">

@@ -28,14 +28,14 @@ const benefits = [
     icon: TrendingUp,
     title: "Publish Content That Ranks From Day One",
     description:
-      "Stop guessing whether your content is good enough. PagePulse scores every page across 9 dimensions before you hit publish, so you launch with confidence.",
+      "Stop guessing whether your content is good enough. CiteAudit scores every page across 9 dimensions before you hit publish, so you launch with confidence.",
     span: "md:col-span-2",
   },
   {
     icon: AlertTriangle,
     title: "Catch Declining Pages Before Traffic Drops",
     description:
-      "ContentPulse monitors your published pages 24/7 and alerts you the moment a page starts losing rankings or traffic.",
+      "CiteWatch monitors your published pages 24/7 and alerts you the moment a page starts losing rankings or traffic.",
     span: "",
   },
   {
@@ -80,13 +80,13 @@ const steps = [
     number: "01",
     title: "Create Your Free Account",
     description:
-      "Sign up in seconds with Google or email. No credit card required. You get free access to both PagePulse and ContentPulse instantly.",
+      "Sign up in seconds with Google or email. No credit card required. You get free access to both CiteAudit and CiteWatch instantly.",
   },
   {
     number: "02",
     title: "Audit or Connect",
     description:
-      "Paste a URL into PagePulse for an instant content audit, or connect Google Search Console to ContentPulse to start monitoring your pages.",
+      "Paste a URL into CiteAudit for an instant content audit, or connect Google Search Console to CiteWatch to start monitoring your pages.",
   },
   {
     number: "03",
@@ -103,8 +103,8 @@ const plans = [
     period: "/mo",
     description: "Try both tools with generous free limits",
     features: [
-      "2 PagePulse audits per month",
-      "1 ContentPulse site",
+      "2 CiteAudit audits per month",
+      "1 CiteWatch site",
       "Content Quality Score",
       "AI Citability Score",
       "Basic decay detection",
@@ -119,8 +119,8 @@ const plans = [
     period: "/mo",
     description: "Both tools at a discounted rate",
     features: [
-      "15 PagePulse audits per month",
-      "3 ContentPulse sites",
+      "15 CiteAudit audits per month",
+      "3 CiteWatch sites",
       "Everything in Free",
       "Detailed dimension breakdown",
       "AI recovery recommendations",
@@ -140,8 +140,8 @@ const plans = [
     period: "/mo",
     description: "Full power for agencies and large teams",
     features: [
-      "50 PagePulse audits per month",
-      "10 ContentPulse sites",
+      "50 CiteAudit audits per month",
+      "10 CiteWatch sites",
       "Everything in Pro",
       "AI-powered content rewrites",
       "Priority decay scanning",
@@ -160,41 +160,41 @@ const testimonials = [
     name: "Sarah Mitchell",
     role: "Content Lead, TechScale",
     quote:
-      "PagePulse changed how we publish content. Our AI citability scores went from 3 to 8 in two months. We are now getting cited in ChatGPT responses.",
+      "CiteAudit changed how we publish content. Our AI citability scores went from 3 to 8 in two months. We are now getting cited in ChatGPT responses.",
     rating: 5,
   },
   {
     name: "James Rodriguez",
     role: "SEO Manager, GrowthLoop",
     quote:
-      "ContentPulse caught a traffic decline on our top 3 blog posts before we even noticed. The AI recovery suggestions helped us regain rankings within weeks.",
+      "CiteWatch caught a traffic decline on our top 3 blog posts before we even noticed. The AI recovery suggestions helped us regain rankings within weeks.",
     rating: 5,
   },
   {
     name: "Priya Sharma",
     role: "Marketing Director, CloudBase",
     quote:
-      "The bundle is incredible value. We audit drafts with PagePulse before publishing, then ContentPulse monitors them after. Our organic traffic is up 40%.",
+      "The bundle is incredible value. We audit drafts with CiteAudit before publishing, then CiteWatch monitors them after. Our organic traffic is up 40%.",
     rating: 5,
   },
 ];
 
 const faqs = [
   {
-    q: "What is PulseHQ?",
-    a: "PulseHQ is a content command center that brings together content auditing, performance monitoring, and AI optimization tools into a single unified platform for content teams.",
+    q: "What is CitabilityOS?",
+    a: "CitabilityOS is a content command center that brings together content auditing, performance monitoring, and AI optimization tools into a single unified platform for content teams.",
   },
   {
     q: "What tools are included?",
-    a: "PulseHQ currently includes PagePulse (AI-powered content audit tool) and ContentPulse (content health monitoring via Google Search Console). We are actively developing additional tools for the suite.",
+    a: "CitabilityOS currently includes CiteAudit (AI-powered content audit tool) and CiteWatch (content health monitoring via Google Search Console). We are actively developing additional tools for the suite.",
   },
   {
     q: "Can I try it for free before paying?",
-    a: "Yes! Both PagePulse and ContentPulse offer generous free tiers so you can try the tools with no commitment. PagePulse includes 2 free audits per month and ContentPulse supports 1 free site. No credit card required.",
+    a: "Yes! Both CiteAudit and CiteWatch offer generous free tiers so you can try the tools with no commitment. CiteAudit includes 2 free audits per month and CiteWatch supports 1 free site. No credit card required.",
   },
   {
     q: "How does the bundle pricing work?",
-    a: "The Pro Bundle ($39/mo) and Advanced Bundle ($99/mo) give you access to both PagePulse and ContentPulse at a discounted rate compared to purchasing each tool separately. You can also use each tool individually on its own free or paid plan.",
+    a: "The Pro Bundle ($39/mo) and Advanced Bundle ($99/mo) give you access to both CiteAudit and CiteWatch at a discounted rate compared to purchasing each tool separately. You can also use each tool individually on its own free or paid plan.",
   },
   {
     q: "Can I cancel or change my plan anytime?",
@@ -205,8 +205,8 @@ const faqs = [
     a: "Yes. We use industry-standard encryption and never share your data with third parties. Your content, analytics data, and Google Search Console data remain private and secure within your account. You can delete your account and all data at any time.",
   },
   {
-    q: "Do I need technical skills to use PulseHQ?",
-    a: "Not at all. PagePulse is as simple as pasting a URL or uploading a document. ContentPulse connects to Google Search Console with one click. Everything is designed for content teams, not developers.",
+    q: "Do I need technical skills to use CitabilityOS?",
+    a: "Not at all. CiteAudit is as simple as pasting a URL or uploading a document. CiteWatch connects to Google Search Console with one click. Everything is designed for content teams, not developers.",
   },
 ];
 
@@ -357,13 +357,13 @@ export default function HomePage() {
                   <div className="w-3 h-3 rounded-full bg-red-500" />
                   <div className="w-3 h-3 rounded-full bg-yellow-500" />
                   <div className="w-3 h-3 rounded-full bg-green-500" />
-                  <span className="ml-2 text-xs text-slate-500">PulseHQ Dashboard</span>
+                  <span className="ml-2 text-xs text-slate-500">CitabilityOS Dashboard</span>
                 </div>
                 <div className="grid grid-cols-2 gap-3 mb-4">
                   <div className="bg-slate-800 rounded-lg p-4">
                     <div className="flex items-center gap-2 mb-2">
                       <Search className="w-4 h-4 text-teal-400" />
-                      <span className="text-xs text-teal-400 font-medium">PagePulse</span>
+                      <span className="text-xs text-teal-400 font-medium">CiteAudit</span>
                     </div>
                     <div className="text-2xl font-bold text-white mb-1">87<span className="text-sm text-slate-400">/100</span></div>
                     <div className="text-xs text-slate-500">Content Quality Score</div>
@@ -374,7 +374,7 @@ export default function HomePage() {
                   <div className="bg-slate-800 rounded-lg p-4">
                     <div className="flex items-center gap-2 mb-2">
                       <BarChart3 className="w-4 h-4 text-orange-400" />
-                      <span className="text-xs text-orange-400 font-medium">ContentPulse</span>
+                      <span className="text-xs text-orange-400 font-medium">CiteWatch</span>
                     </div>
                     <div className="text-2xl font-bold text-white mb-1">3<span className="text-sm text-slate-400"> alerts</span></div>
                     <div className="text-xs text-slate-500">Pages need attention</div>
@@ -454,14 +454,14 @@ export default function HomePage() {
             </p>
           </div>
           <div className="grid md:grid-cols-2 gap-8">
-            {/* PagePulse */}
+            {/* CiteAudit */}
             <div className="bg-slate-900 border border-slate-800 rounded-xl p-8 transition-all hover:border-teal-500/50 hover:scale-[1.01]">
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-10 h-10 bg-teal-500/10 rounded-lg flex items-center justify-center">
                   <Search className="w-5 h-5 text-teal-400" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-white">PagePulse</h3>
+                  <h3 className="text-xl font-bold text-white">CiteAudit</h3>
                   <p className="text-sm text-teal-400">AI-Powered Content Audit Tool</p>
                 </div>
               </div>
@@ -487,7 +487,7 @@ export default function HomePage() {
                   Starting at <span className="text-white font-semibold">Free</span>
                 </span>
                 <Link
-                  href="/products/pagepulse"
+                  href="/products/citeaudit"
                   className="px-5 py-2 bg-teal-600 hover:bg-teal-500 text-white text-sm font-semibold rounded-lg transition-colors"
                 >
                   Learn More
@@ -495,14 +495,14 @@ export default function HomePage() {
               </div>
             </div>
 
-            {/* ContentPulse */}
+            {/* CiteWatch */}
             <div className="bg-slate-900 border border-slate-800 rounded-xl p-8 transition-all hover:border-orange-500/50 hover:scale-[1.01]">
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-10 h-10 bg-orange-500/10 rounded-lg flex items-center justify-center">
                   <BarChart3 className="w-5 h-5 text-orange-400" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-white">ContentPulse</h3>
+                  <h3 className="text-xl font-bold text-white">CiteWatch</h3>
                   <p className="text-sm text-orange-400">Content Health Monitoring</p>
                 </div>
               </div>
@@ -528,7 +528,7 @@ export default function HomePage() {
                   Starting at <span className="text-white font-semibold">Free</span>
                 </span>
                 <Link
-                  href="/products/contentpulse"
+                  href="/products/citewatch"
                   className="px-5 py-2 bg-orange-600 hover:bg-orange-500 text-white text-sm font-semibold rounded-lg transition-colors"
                 >
                   Learn More
@@ -544,7 +544,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-              How PulseHQ Helps You Win
+              How CitabilityOS Helps You Win
             </h2>
             <p className="text-slate-400 text-lg max-w-2xl mx-auto">
               It is not about what our tools have. It is about what they help you achieve.
@@ -677,7 +677,7 @@ export default function HomePage() {
               Loved by Content Teams Worldwide
             </h2>
             <p className="text-slate-400 text-lg">
-              See what teams are saying about PulseHQ.
+              See what teams are saying about CitabilityOS.
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
@@ -735,7 +735,7 @@ export default function HomePage() {
               Ready to Take Control of Your Content?
             </h2>
             <p className="text-slate-400 text-lg mb-8 max-w-xl mx-auto">
-              Join 500+ content teams already using PulseHQ to audit, monitor, and
+              Join 500+ content teams already using CitabilityOS to audit, monitor, and
               optimize their content. Start free, no credit card required.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -776,13 +776,13 @@ export default function HomePage() {
               <h4 className="text-sm font-semibold text-white mb-4">Products</h4>
               <ul className="space-y-2">
                 <li>
-                  <Link href="/products/pagepulse" className="text-sm text-slate-400 hover:text-red-400 transition-colors">
-                    PagePulse
+                  <Link href="/products/citeaudit" className="text-sm text-slate-400 hover:text-red-400 transition-colors">
+                    CiteAudit
                   </Link>
                 </li>
                 <li>
-                  <Link href="/products/contentpulse" className="text-sm text-slate-400 hover:text-red-400 transition-colors">
-                    ContentPulse
+                  <Link href="/products/citewatch" className="text-sm text-slate-400 hover:text-red-400 transition-colors">
+                    CiteWatch
                   </Link>
                 </li>
                 <li>
@@ -836,7 +836,7 @@ export default function HomePage() {
             </div>
           </div>
           <div className="mt-12 pt-8 border-t border-slate-800 text-center text-sm text-slate-500">
-            &copy; {new Date().getFullYear()} PulseHQ. All rights reserved.
+            &copy; {new Date().getFullYear()} CitabilityOS. All rights reserved.
           </div>
         </div>
       </footer>

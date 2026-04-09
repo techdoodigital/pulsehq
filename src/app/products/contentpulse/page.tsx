@@ -82,7 +82,7 @@ const plans = [
   },
 ];
 
-export default function ContentPulsePage() {
+export default function CiteWatchPage() {
   return (
     <div className="min-h-screen bg-slate-950">
       {/* Nav */}
@@ -117,10 +117,10 @@ export default function ContentPulsePage() {
             Connect to Google Search Console and detect content decay before it impacts your traffic. Get AI-powered recovery recommendations.
           </p>
           <a
-            href="https://contentpulse-nu.vercel.app"
+            href="https://citewatch-nu.vercel.app"
             className="inline-flex items-center gap-2 px-8 py-3.5 bg-orange-600 hover:bg-orange-500 text-white font-semibold rounded-lg transition-colors text-lg"
           >
-            Launch ContentPulse
+            Launch CiteWatch
             <ArrowRight className="w-5 h-5" />
           </a>
         </div>
@@ -131,9 +131,9 @@ export default function ContentPulsePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl font-bold text-white mb-6">What is ContentPulse?</h2>
+              <h2 className="text-3xl font-bold text-white mb-6">What is CiteWatch?</h2>
               <p className="text-slate-400 mb-4 leading-relaxed">
-                ContentPulse is a content health monitoring tool that connects directly to your Google Search Console. It continuously analyzes your pages to detect content decay - the gradual decline in traffic and rankings that affects even the best content.
+                CiteWatch is a content health monitoring tool that connects directly to your Google Search Console. It continuously analyzes your pages to detect content decay - the gradual decline in traffic and rankings that affects even the best content.
               </p>
               <p className="text-slate-400 leading-relaxed">
                 Built for SEO professionals, content teams, and digital marketers who need early warning when their content starts underperforming. Stop finding out about traffic drops weeks after they happen.
@@ -287,30 +287,30 @@ export default function ContentPulsePage() {
           <div className="text-center mb-12">
             <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-red-600/10 border border-red-500/20 rounded-full text-red-400 text-sm font-medium mb-6">
               <Zap className="w-4 h-4" />
-              Save with PulseHQ Bundle
+              Save with CitabilityOS Bundle
             </div>
             <h2 className="text-3xl font-bold text-white mb-4">
               Complete Your Content Lifecycle
             </h2>
             <p className="text-slate-400 text-lg max-w-2xl mx-auto">
-              ContentPulse monitors your published content. Pair it with PagePulse to audit and optimize content before you hit publish.
+              CiteWatch monitors your published content. Pair it with CiteAudit to audit and optimize content before you hit publish.
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
-            {/* Cross-sell: PagePulse */}
+            {/* Cross-sell: CiteAudit */}
             <div className="bg-slate-900 border border-slate-800 rounded-xl p-8 hover:border-teal-500/50 transition-colors">
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-10 h-10 bg-teal-500/10 rounded-lg flex items-center justify-center">
                   <Search className="w-5 h-5 text-teal-400" />
                 </div>
                 <div>
-                  <h3 className="text-lg font-bold text-white">Add PagePulse</h3>
+                  <h3 className="text-lg font-bold text-white">Add CiteAudit</h3>
                   <p className="text-sm text-teal-400">AI Content Audit Tool</p>
                 </div>
               </div>
               <p className="text-slate-400 text-sm mb-4 leading-relaxed">
-                You monitor content performance with ContentPulse. But are you publishing content that is optimized from the start? PagePulse audits your content across 9 dimensions and scores it for AI citability before you publish.
+                You monitor content performance with CiteWatch. But are you publishing content that is optimized from the start? CiteAudit audits your content across 9 dimensions and scores it for AI citability before you publish.
               </p>
               <ul className="space-y-2 mb-6">
                 <li className="flex items-center gap-2 text-slate-300 text-sm">
@@ -327,10 +327,10 @@ export default function ContentPulsePage() {
                 </li>
               </ul>
               <Link
-                href="/products/pagepulse"
+                href="/products/citeaudit"
                 className="inline-flex items-center gap-2 px-6 py-2.5 bg-teal-600 hover:bg-teal-500 text-white font-semibold rounded-lg transition-colors text-sm"
               >
-                Explore PagePulse
+                Explore CiteAudit
                 <ArrowRight className="w-4 h-4" />
               </Link>
             </div>
@@ -342,20 +342,20 @@ export default function ContentPulsePage() {
                   <Zap className="w-5 h-5 text-red-400" />
                 </div>
                 <div>
-                  <h3 className="text-lg font-bold text-white">PulseHQ Bundle</h3>
+                  <h3 className="text-lg font-bold text-white">CitabilityOS Bundle</h3>
                   <p className="text-sm text-red-400">Best Value</p>
                 </div>
               </div>
               <p className="text-slate-400 text-sm mb-4 leading-relaxed">
-                Get both ContentPulse and PagePulse together at a discounted rate. Audit content before publishing and monitor it after - the complete content health solution.
+                Get both CiteWatch and CiteAudit together at a discounted rate. Audit content before publishing and monitor it after - the complete content health solution.
               </p>
               <div className="bg-slate-800/50 rounded-lg p-4 mb-6">
                 <div className="flex items-center justify-between mb-2">
-                  <span className="text-slate-400 text-sm">ContentPulse Pro</span>
+                  <span className="text-slate-400 text-sm">CiteWatch Pro</span>
                   <span className="text-slate-500 text-sm line-through">$19/mo</span>
                 </div>
                 <div className="flex items-center justify-between mb-2">
-                  <span className="text-slate-400 text-sm">PagePulse Starter</span>
+                  <span className="text-slate-400 text-sm">CiteAudit Starter</span>
                   <span className="text-slate-500 text-sm line-through">$29/mo</span>
                 </div>
                 <div className="border-t border-slate-700 pt-2 mt-2 flex items-center justify-between">
@@ -379,18 +379,18 @@ export default function ContentPulsePage() {
         </div>
       </section>
 
-      {/* Also from PulseHQ */}
+      {/* Also from CitabilityOS */}
       <section className="py-16">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-slate-500 text-sm uppercase tracking-wider mb-3">Part of the PulseHQ suite</p>
+          <p className="text-slate-500 text-sm uppercase tracking-wider mb-3">Part of the CitabilityOS suite</p>
           <p className="text-slate-400 mb-6">
-            ContentPulse is one of the tools in the PulseHQ content command center. Explore all our tools to build a complete content strategy.
+            CiteWatch is one of the tools in the CitabilityOS content command center. Explore all our tools to build a complete content strategy.
           </p>
           <Link
             href="/#tools"
             className="inline-flex items-center gap-2 text-red-400 hover:text-red-300 font-medium transition-colors"
           >
-            View All PulseHQ Tools
+            View All CitabilityOS Tools
             <ArrowRight className="w-4 h-4" />
           </Link>
         </div>

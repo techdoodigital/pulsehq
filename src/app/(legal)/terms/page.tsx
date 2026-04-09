@@ -8,8 +8,8 @@ export default function TermsPage() {
         <section>
           <h2 className="text-xl font-semibold text-white mb-3">1. Acceptance of Terms</h2>
           <p>
-            By accessing or using PulseHQ and any of its associated tools (PagePulse,
-            ContentPulse), you agree to be bound by these Terms of Service. If you do not agree
+            By accessing or using CitabilityOS and any of its associated tools (CiteAudit,
+            CiteWatch), you agree to be bound by these Terms of Service. If you do not agree
             to these terms, please do not use our services.
           </p>
         </section>
@@ -17,7 +17,7 @@ export default function TermsPage() {
         <section>
           <h2 className="text-xl font-semibold text-white mb-3">2. Description of Service</h2>
           <p>
-            PulseHQ is a content command center that provides content
+            CitabilityOS is a content command center that provides content
             auditing, monitoring, and optimization tools. Our services include but are not
             limited to content quality analysis, content decay detection, and AI citability
             scoring.
@@ -57,7 +57,7 @@ export default function TermsPage() {
         <section>
           <h2 className="text-xl font-semibold text-white mb-3">6. Intellectual Property</h2>
           <p>
-            You retain ownership of any content you submit for analysis. PulseHQ
+            You retain ownership of any content you submit for analysis. CitabilityOS
             retains all rights to the platform, tools, algorithms, and generated reports. You may
             not reverse-engineer or copy our scoring methodologies.
           </p>
@@ -66,7 +66,7 @@ export default function TermsPage() {
         <section>
           <h2 className="text-xl font-semibold text-white mb-3">7. Limitation of Liability</h2>
           <p>
-            PulseHQ is provided &quot;as is&quot; without warranties of any kind. We are not liable for
+            CitabilityOS is provided &quot;as is&quot; without warranties of any kind. We are not liable for
             any indirect, incidental, or consequential damages arising from your use of the
             service. Our recommendations are suggestions and do not guarantee specific search
             rankings or traffic results.
@@ -94,7 +94,7 @@ export default function TermsPage() {
           <h2 className="text-xl font-semibold text-white mb-3">10. Contact</h2>
           <p>
             For questions about these terms, please contact us through our support page or email
-            us at support@pulsehq.io.
+            us at support@citabilityos.io.
           </p>
         </section>
       </div>

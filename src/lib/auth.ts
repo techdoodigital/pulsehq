@@ -21,7 +21,7 @@ const providers = [
       // Dev mode auto-login
       if (
         process.env.NODE_ENV === "development" &&
-        email === "dev@pulsehq.io" &&
+        email === "dev@citabilityos.io" &&
         password === "admin123"
       ) {
         const user = await db.user.findUnique({ where: { email } });

@@ -56,7 +56,7 @@ export default function PrivacyPage() {
         <section>
           <h2 className="text-xl font-semibold text-white mb-3">5. Google Search Console Data</h2>
           <p>
-            When you connect Google Search Console to ContentPulse, we access your search
+            When you connect Google Search Console to CiteWatch, we access your search
             performance data to provide decay detection and monitoring. This data is used solely
             for delivering our service to you and is not shared with third parties. You can
             disconnect your GSC access at any time.
@@ -105,7 +105,7 @@ export default function PrivacyPage() {
           <h2 className="text-xl font-semibold text-white mb-3">10. Contact Us</h2>
           <p>
             For privacy-related questions or to exercise your data rights, please contact us at
-            privacy@pulsehq.io or through our support page.
+            privacy@citabilityos.io or through our support page.
           </p>
         </section>
       </div>

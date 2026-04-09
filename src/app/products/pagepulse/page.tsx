@@ -50,7 +50,7 @@ const plans = [
   },
 ];
 
-export default function PagePulsePage() {
+export default function CiteAuditPage() {
   return (
     <div className="min-h-screen bg-slate-950">
       {/* Nav */}
@@ -85,10 +85,10 @@ export default function PagePulsePage() {
             AI-powered content auditing across 9 dimensions. Get your Content Quality Score and AI Citability Score to make every page rank - and get cited.
           </p>
           <a
-            href="https://pagepulse-pied.vercel.app"
+            href="https://citeaudit-pied.vercel.app"
             className="inline-flex items-center gap-2 px-8 py-3.5 bg-teal-600 hover:bg-teal-500 text-white font-semibold rounded-lg transition-colors text-lg"
           >
-            Launch PagePulse
+            Launch CiteAudit
             <ArrowRight className="w-5 h-5" />
           </a>
         </div>
@@ -99,12 +99,12 @@ export default function PagePulsePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl font-bold text-white mb-6">What is PagePulse?</h2>
+              <h2 className="text-3xl font-bold text-white mb-6">What is CiteAudit?</h2>
               <p className="text-slate-400 mb-4 leading-relaxed">
-                PagePulse is an AI-powered content audit tool that analyzes your content across 9 critical dimensions. It helps content teams understand how their pages perform for both traditional search engines and AI answer engines.
+                CiteAudit is an AI-powered content audit tool that analyzes your content across 9 critical dimensions. It helps content teams understand how their pages perform for both traditional search engines and AI answer engines.
               </p>
               <p className="text-slate-400 mb-6 leading-relaxed">
-                Whether you are a content marketer, SEO professional, or editorial team lead, PagePulse gives you the data-driven insights you need to create content that ranks and gets cited by AI.
+                Whether you are a content marketer, SEO professional, or editorial team lead, CiteAudit gives you the data-driven insights you need to create content that ranks and gets cited by AI.
               </p>
               <h3 className="text-xl font-semibold text-white mb-4">Input Methods</h3>
               <div className="space-y-3">
@@ -226,30 +226,30 @@ export default function PagePulsePage() {
           <div className="text-center mb-12">
             <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-red-600/10 border border-red-500/20 rounded-full text-red-400 text-sm font-medium mb-6">
               <Zap className="w-4 h-4" />
-              Save with PulseHQ Bundle
+              Save with CitabilityOS Bundle
             </div>
             <h2 className="text-3xl font-bold text-white mb-4">
               Get More From Your Content Strategy
             </h2>
             <p className="text-slate-400 text-lg max-w-2xl mx-auto">
-              PagePulse audits your content before and after publishing. Pair it with ContentPulse to monitor performance over time and catch decay early.
+              CiteAudit audits your content before and after publishing. Pair it with CiteWatch to monitor performance over time and catch decay early.
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
-            {/* Cross-sell: ContentPulse */}
+            {/* Cross-sell: CiteWatch */}
             <div className="bg-slate-900 border border-slate-800 rounded-xl p-8 hover:border-orange-500/50 transition-colors">
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-10 h-10 bg-orange-500/10 rounded-lg flex items-center justify-center">
                   <BarChart3 className="w-5 h-5 text-orange-400" />
                 </div>
                 <div>
-                  <h3 className="text-lg font-bold text-white">Add ContentPulse</h3>
+                  <h3 className="text-lg font-bold text-white">Add CiteWatch</h3>
                   <p className="text-sm text-orange-400">Content Health Monitoring</p>
                 </div>
               </div>
               <p className="text-slate-400 text-sm mb-4 leading-relaxed">
-                You audit your content with PagePulse. But what happens after you publish? ContentPulse connects to Google Search Console and alerts you the moment a page starts losing traffic or rankings.
+                You audit your content with CiteAudit. But what happens after you publish? CiteWatch connects to Google Search Console and alerts you the moment a page starts losing traffic or rankings.
               </p>
               <ul className="space-y-2 mb-6">
                 <li className="flex items-center gap-2 text-slate-300 text-sm">
@@ -266,10 +266,10 @@ export default function PagePulsePage() {
                 </li>
               </ul>
               <Link
-                href="/products/contentpulse"
+                href="/products/citewatch"
                 className="inline-flex items-center gap-2 px-6 py-2.5 bg-orange-600 hover:bg-orange-500 text-white font-semibold rounded-lg transition-colors text-sm"
               >
-                Explore ContentPulse
+                Explore CiteWatch
                 <ArrowRight className="w-4 h-4" />
               </Link>
             </div>
@@ -281,20 +281,20 @@ export default function PagePulsePage() {
                   <Zap className="w-5 h-5 text-red-400" />
                 </div>
                 <div>
-                  <h3 className="text-lg font-bold text-white">PulseHQ Bundle</h3>
+                  <h3 className="text-lg font-bold text-white">CitabilityOS Bundle</h3>
                   <p className="text-sm text-red-400">Best Value</p>
                 </div>
               </div>
               <p className="text-slate-400 text-sm mb-4 leading-relaxed">
-                Get both PagePulse and ContentPulse together at a discounted rate. The complete content lifecycle solution: audit before publishing, monitor after.
+                Get both CiteAudit and CiteWatch together at a discounted rate. The complete content lifecycle solution: audit before publishing, monitor after.
               </p>
               <div className="bg-slate-800/50 rounded-lg p-4 mb-6">
                 <div className="flex items-center justify-between mb-2">
-                  <span className="text-slate-400 text-sm">PagePulse Starter</span>
+                  <span className="text-slate-400 text-sm">CiteAudit Starter</span>
                   <span className="text-slate-500 text-sm line-through">$29/mo</span>
                 </div>
                 <div className="flex items-center justify-between mb-2">
-                  <span className="text-slate-400 text-sm">ContentPulse Pro</span>
+                  <span className="text-slate-400 text-sm">CiteWatch Pro</span>
                   <span className="text-slate-500 text-sm line-through">$19/mo</span>
                 </div>
                 <div className="border-t border-slate-700 pt-2 mt-2 flex items-center justify-between">
@@ -318,18 +318,18 @@ export default function PagePulsePage() {
         </div>
       </section>
 
-      {/* Also from PulseHQ */}
+      {/* Also from CitabilityOS */}
       <section className="py-16">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-slate-500 text-sm uppercase tracking-wider mb-3">Part of the PulseHQ suite</p>
+          <p className="text-slate-500 text-sm uppercase tracking-wider mb-3">Part of the CitabilityOS suite</p>
           <p className="text-slate-400 mb-6">
-            PagePulse is one of the tools in the PulseHQ content command center. Explore all our tools to build a complete content strategy.
+            CiteAudit is one of the tools in the CitabilityOS content command center. Explore all our tools to build a complete content strategy.
           </p>
           <Link
             href="/#tools"
             className="inline-flex items-center gap-2 text-red-400 hover:text-red-300 font-medium transition-colors"
           >
-            View All PulseHQ Tools
+            View All CitabilityOS Tools
             <ArrowRight className="w-4 h-4" />
           </Link>
         </div>

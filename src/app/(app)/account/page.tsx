@@ -67,7 +67,7 @@ export default function AccountPage() {
         <div className="space-y-3">
           <div className="flex items-center justify-between p-3 bg-slate-800/50 rounded-lg">
             <div>
-              <p className="text-sm font-medium text-slate-200">PagePulse</p>
+              <p className="text-sm font-medium text-slate-200">CiteAudit</p>
               <p className="text-xs text-slate-500">Content audit tool</p>
             </div>
             <span className="text-xs text-slate-500 px-2 py-1 bg-slate-800 rounded">
@@ -76,7 +76,7 @@ export default function AccountPage() {
           </div>
           <div className="flex items-center justify-between p-3 bg-slate-800/50 rounded-lg">
             <div>
-              <p className="text-sm font-medium text-slate-200">ContentPulse</p>
+              <p className="text-sm font-medium text-slate-200">CiteWatch</p>
               <p className="text-xs text-slate-500">Content monitoring tool</p>
             </div>
             <span className="text-xs text-slate-500 px-2 py-1 bg-slate-800 rounded">

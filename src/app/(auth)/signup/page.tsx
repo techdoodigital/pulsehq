@@ -61,7 +61,7 @@ export default function SignupPage() {
             </span>
           </Link>
           <h1 className="text-2xl font-bold text-white">Create your account</h1>
-          <p className="text-slate-400 mt-1">Get started with PulseHQ for free</p>
+          <p className="text-slate-400 mt-1">Get started with CitabilityOS for free</p>
         </div>
 
         <div className="bg-slate-900 border border-slate-800 rounded-xl p-8">

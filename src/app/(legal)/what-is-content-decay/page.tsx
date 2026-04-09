@@ -155,27 +155,27 @@ export default function WhatIsContentDecayPage() {
 
         <section>
           <h2 className="text-2xl font-semibold text-white mb-4">
-            How ContentPulse Automates Detection
+            How CiteWatch Automates Detection
           </h2>
           <p className="text-slate-400 mb-4">
-            ContentPulse connects directly to your Google Search Console and continuously monitors
+            CiteWatch connects directly to your Google Search Console and continuously monitors
             four key performance signals: traffic trends, ranking positions, click-through rates,
             and impression patterns. When it detects early signs of decay, it alerts you
             immediately and provides AI-powered recovery recommendations specific to each page.
           </p>
           <p className="text-slate-400">
             Instead of manually checking Search Console data and building spreadsheets,
-            ContentPulse automates the entire process so you can focus on creating and
+            CiteWatch automates the entire process so you can focus on creating and
             improving content rather than monitoring dashboards.
           </p>
         </section>
 
         <div className="pt-4">
           <Link
-            href="/products/contentpulse"
+            href="/products/citewatch"
             className="inline-flex items-center px-6 py-3 bg-orange-600 hover:bg-orange-500 text-white font-semibold rounded-lg transition-colors"
           >
-            Try ContentPulse - Detect Decay Early
+            Try CiteWatch - Detect Decay Early
           </Link>
         </div>
       </div>

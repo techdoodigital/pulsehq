@@ -13,21 +13,21 @@ import Link from "next/link";
 
 const tools = [
   {
-    name: "PagePulse",
+    name: "CiteAudit",
     tagline: "AI-Powered Content Audit",
     description: "Audit your content across 9 dimensions for quality and AI citability.",
     color: "teal",
     icon: Search,
-    href: "https://pagepulse-pied.vercel.app",
+    href: "https://citeaudit-pied.vercel.app",
     external: true,
   },
   {
-    name: "ContentPulse",
+    name: "CiteWatch",
     tagline: "Content Health Monitoring",
     description: "Monitor content performance and detect decay with GSC integration.",
     color: "orange",
     icon: BarChart3,
-    href: "https://contentpulse-nu.vercel.app",
+    href: "https://citewatch-nu.vercel.app",
     external: true,
   },
 ];
@@ -36,8 +36,8 @@ const gettingStarted = [
   {
     icon: Rocket,
     title: "Run your first audit",
-    description: "Launch PagePulse and audit a URL to see your Content Quality Score.",
-    href: "https://pagepulse-pied.vercel.app",
+    description: "Launch CiteAudit and audit a URL to see your Content Quality Score.",
+    href: "https://citeaudit-pied.vercel.app",
     external: true,
   },
   {
@@ -50,8 +50,8 @@ const gettingStarted = [
   {
     icon: Settings,
     title: "Connect Google Search Console",
-    description: "Set up ContentPulse to monitor your content health automatically.",
-    href: "https://contentpulse-nu.vercel.app",
+    description: "Set up CiteWatch to monitor your content health automatically.",
+    href: "https://citewatch-nu.vercel.app",
     external: true,
   },
 ];
